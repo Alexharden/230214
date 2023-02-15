@@ -1,8 +1,15 @@
 # a = int(input("輸入"))
 # for i in range(a+1):
 #     print("*" * i)
-for i in range(4,1,-1):
-    print(i)
+# for i in range(4,0,-1):
+#     print(i)
+# print()
+# for i in range(0,4,1):
+#     print(i)
+
+# print()
+# for i in reversed(range(0,4,1)):
+#     print(i)   
     # print("*" * i)
 
 # a = int(input("輸入 "))    
@@ -25,3 +32,22 @@ for i in range(4,1,-1):
 #     for k in range(0,i * 2 + 1,1):  #*則從0~2n+1
 #         print('*',end='')
 #     print()``
+
+# for i in range(1,5,1):
+#     print("*" * i)
+
+# for i in range(4,0,-1):
+#     print("*" * i)
+
+a = int(input("輸入"))
+
+# for i in range(1,a+1,1):
+#     print("*" * i)
+
+# for i in range(a,0,-1):
+#     print("*" * i)
+
+for i in range(1, a+1, 1):
+    for j in range(1, 2*i, 1):
+        print("*", end="")
+    print()
